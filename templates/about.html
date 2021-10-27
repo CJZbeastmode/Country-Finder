@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="display: flex; flex-direction: row; justify-content: flex-end; height: 60px; background-color: orange; margin: -10px -10px 0 -10px;">
+        <button onclick="window.location.href='{{ url_for( 'cityfinder') }}';" style="height: 60px; background-color: orange; border: 0; margin-right: 20px;">City Finder</button>
+        <button onclick="window.location.href='{{ url_for( 'generator') }}';" style="height: 60px; background-color: orange; border: 0; margin-right: 20px;">Generator</button>
+    </div>
+    <p style="margin: 30px;">Data Source: https://github.com/russ666/all-countries-and-cities-json/blob/master/countries.json</p>
+</body>
+</html>
